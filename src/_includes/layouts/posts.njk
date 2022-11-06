@@ -20,8 +20,8 @@
         <p class="card__date">
           <small
             >Updated on
-            <time datetime="{{ post.date | datetime }}">
-              {{ post.date | readableDate }}
+            <time datetime="{{ post.date | dateISO }}">
+              {{ post.date | dateMedium }}
             </time>
           </small>
         </p>

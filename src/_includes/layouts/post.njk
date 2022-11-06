@@ -10,8 +10,8 @@ layout: "layouts/base.njk"
   </figure>
   <p>
     Updated on
-    <time datetime="{{ date | datetime }}">
-      {{ date | readableDate }}
+    <time datetime="{{ date | dateISO }}">
+      {{ date | dateMedium }}
     </time>
   </p>
   <p>

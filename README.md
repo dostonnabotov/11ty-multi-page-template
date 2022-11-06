@@ -1,16 +1,26 @@
-### Hi there 👋
+# Eleventy Template
 
-<!--
-**dostonnabotov/dostonnabotov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is a template for a static site built with [Eleventy](https://www.11ty.dev/).
 
-Here are some ideas to get you started:
+## Getting Started
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Clone this repository
+2. Run `npm install`
+3. Run `npm start` to start the development server
+4. Run `npm run build` to build the site
+
+## Features
+
+- [Eleventy](https://www.11ty.dev/)
+- [Sass](https://sass-lang.com/)
+- [PostCSS](https://postcss.org/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgments
+
+- [Eleventy Base Blog](https://github.com/11ty/eleventy-base-blog)
+- [Collapsology](https://github.com/collapsology/collapsology)
+- [Kevin Powell](https://www.youtube.com/watch?v=4wD00RT6d-g)

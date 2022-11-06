@@ -1,11 +1,11 @@
 {
-  "title": "Doston Nabotov",
+  "title": "Eleventy",
   "url": "https://example.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Eleventy Template",
   "author": {
-    "name": "Doston Nabotov",
-    "email": "doston.nnbotov161@example.com",
+    "name": "Eleventy",
+    "email": "youremail@example.com",
     "url": "https://example.com/about-me/"
   }
 }
