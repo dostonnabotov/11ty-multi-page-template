@@ -1,0 +1,13 @@
+body {
+  font-family: system-ui, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(100% - 2rem, 50rem);
+  margin-inline: auto;
+}
