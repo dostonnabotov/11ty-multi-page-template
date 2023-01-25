@@ -1,8 +1,8 @@
 const { DateTime } = require("luxon");
 
-module.exports = date = {
+const date = {
   /**
-   *
+   * Get ISO verion of the date
    * @param {Object} date Date
    * @returns {DateTime} E.g. 2022-05-25
    */
@@ -42,3 +42,5 @@ module.exports = date = {
     return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_FULL);
   },
 };
+
+module.exports = date;

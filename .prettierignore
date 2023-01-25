@@ -1,0 +1,10 @@
+# dependencies installed by npm:
+node_modules
+
+# build artifacts:
+dist
+public
+
+# other artifacts:
+build
+coverage
