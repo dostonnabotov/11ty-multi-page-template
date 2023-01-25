@@ -14,6 +14,8 @@ This is a template for a static site built with [Eleventy](https://www.11ty.dev/
 - [Eleventy](https://www.11ty.dev/)
 - [Sass](https://sass-lang.com/)
 - [PostCSS](https://postcss.org/)
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
 
 ## License
 
