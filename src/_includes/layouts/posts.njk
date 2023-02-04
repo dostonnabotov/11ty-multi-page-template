@@ -11,17 +11,17 @@
       </div>
       <div class="card__body">
         <div class="card__tags">
-          {% for tag in post.data.tags | filterTagList %} {% set tagUrl
-          %}/tags/{{ tag | slugify }}/{% endset %}
-          <a href="{{ tagUrl | url }}" class="card__tag">{{ tag }}</a>
+          {% for tag in post.data.tags | filterTagList %} 
+            {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            <a href="{{ tagUrl | url }}" class="card__tag">{{ tag }}</a>
           {% endfor %}
         </div>
         <h3 class="card__title">{{ post.data.title }}</h3>
         <p class="card__date">
-          <small
-            >Updated on
+          <small>
+            Updated on
             <time datetime="{{ post.date | dateISO }}">
-              {{ post.date | dateMedium }}
+              {{ post.date | readableDate }}
             </time>
           </small>
         </p>

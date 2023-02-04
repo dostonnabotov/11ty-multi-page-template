@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
   // filters
   eleventyConfig.addFilter("filterTagList", filterTagList);
   eleventyConfig.addFilter("limit", limit);
-  eleventyConfig.addFilter("dateMedium", date.getMedium);
+  eleventyConfig.addFilter("readableDate", date.getMedium);
   eleventyConfig.addFilter("dateISO", date.getISO);
 
   // collections

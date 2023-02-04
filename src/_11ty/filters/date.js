@@ -3,11 +3,11 @@ const { DateTime } = require("luxon");
 const date = {
   /**
    * Get ISO verion of the date
-   * @param {Object} date Date
+   * @param {DateTime} date Date
    * @returns {DateTime} E.g. 2022-05-25
    */
   getISO(date) {
-    return DateTime.fromJSDate(date, { zone: "utc" }).toFormat("yyyy-mm-dd");
+    return DateTime.fromJSDate(date, { zone: "utc" }).toISODate();
   },
   /**
    * Get full year
