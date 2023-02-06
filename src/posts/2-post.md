@@ -1,7 +1,7 @@
 ---
 title: This is my second post.
 description: This is first post in my blog about CSS so far.
-image: /assets/uploads/image-2.jpg
+image: /assets/img/image-2.jpg
 caption: Image 2
 date: 2022-07-10
 tags: ["css"]

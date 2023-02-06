@@ -1,7 +1,7 @@
 ---
 title: This is my first post.
 description: This is first post in my blog about JavaScript so far.
-image: /assets/uploads/image-1.jpg
+image: /assets/img/image-1.jpg
 caption: Image 1
 date: 2022-05-25
 tags: ["javascript", "html"]

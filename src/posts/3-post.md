@@ -1,7 +1,7 @@
 ---
 title: This is my third post.
 description: This is first post in my blog about HTML so far.
-image: /assets/uploads/image-3.jpg
+image: /assets/img/image-3.jpg
 caption: Image 3
 date: 2022-10-10
 tags: ["html"]

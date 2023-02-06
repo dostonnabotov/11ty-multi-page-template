@@ -24,7 +24,6 @@ module.exports = function (eleventyConfig) {
   // passthrough copy
   eleventyConfig.addPassthroughCopy("./src/assets/img/");
   eleventyConfig.addPassthroughCopy("./src/assets/fonts/");
-  eleventyConfig.addPassthroughCopy("./src/assets/uploads/");
 
   // Watch CSS files for changes
   eleventyConfig.setBrowserSyncConfig({
