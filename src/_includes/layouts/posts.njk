@@ -1,34 +1,34 @@
 <ul role="list">
   {% for post in posts | reverse %}
-  <li>
-    <article class="card">
-      <div class="card__img-container">
-        <img
-          class="card__img"
-          src="{{ post.data.image }}"
-          alt="{{ post.data.caption }}"
-        />
-      </div>
-      <div class="card__body">
-        <div class="card__tags">
-          {% for tag in post.data.tags | filterTagList %} 
-            {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-            <a href="{{ tagUrl | url }}" class="card__tag">{{ tag }}</a>
-          {% endfor %}
+    <li>
+      <article class="card">
+        <div class="card__img-container">
+          <img
+            class="card__img"
+            src="{{ post.data.image }}"
+            alt="{{ post.data.caption }}"
+          />
         </div>
-        <h3 class="card__title">{{ post.data.title }}</h3>
-        <p class="card__date">
-          <small>
-            Updated on
-            <time datetime="{{ post.date | dateISO }}">
-              {{ post.date | readableDate }}
-            </time>
-          </small>
-        </p>
-        <p>{{ post.data.description }}</p>
-        <a href="{{ post.url | url }}">Read more</a>
-      </div>
-    </article>
-  </li>
+        <div class="card__body">
+          <div class="card__tags">
+            {% for tag in post.data.tags | filterTagList %} 
+              {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+              <a href="{{ tagUrl | url }}" class="card__tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+          <h3 class="card__title">{{ post.data.title }}</h3>
+          <p class="card__date">
+            <small>
+              Updated on
+              <time datetime="{{ post.date | dateISO }}">
+                {{ post.date | readableDate }}
+              </time>
+            </small>
+          </p>
+          <p>{{ post.data.description }}</p>
+          <a href="{{ post.url | url }}">Read more</a>
+        </div>
+      </article>
+    </li>
   {% endfor %}
 </ul>

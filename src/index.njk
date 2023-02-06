@@ -13,7 +13,7 @@ eleventyNavigation:
   Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}
 </h1>
 
-{% set posts = collections.posts | limit(-3) %} {% include "layouts/posts.njk"
-%}
+{% set posts = collections.posts | limit(-3) %} 
+{% include "layouts/posts.njk" %}
 
 <p>More posts can be found in <a href="{{ '/blog/' | url }}">the blog</a>.</p>
